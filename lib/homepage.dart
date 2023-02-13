@@ -33,7 +33,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
         appBar: AppBar(
           centerTitle: true,
-          title: Text("Fetch Data"),
+          title: Text("Fetch Data from API"),
         ),
         body: FutureBuilder(
             future: getAll(),
